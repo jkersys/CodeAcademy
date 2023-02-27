@@ -1,0 +1,180 @@
+body {
+    height: 1800px;
+    display: flex;
+    justify-content: center;
+    margin: 0%
+}
+
+#container {
+    padding: 15px;
+    margin: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 800px;
+    height: fit-content;
+}
+
+#userAndLogout {
+    display: block;
+    justify-content: end;
+    width: 750px;
+    padding: 5px;
+    height: 100px;
+}
+#userAndLogout div{
+    display: flex;
+    justify-content: end;
+    width: 750px;
+    padding: 5px;
+
+}
+
+.container-logout-btn {
+    padding-right: 250px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: left;
+}
+
+
+
+.input-container {
+    padding-top: 5px;
+    grid-template-columns: 1fr max-content;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.input-container input {
+    width: 400px;
+    border-radius: 25px;
+    padding: 10px;
+    opacity: 0.9;
+    font-size: larger;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.label-container {
+    width: 250px;
+    text-align: right;
+    justify-content: end;
+}
+
+.input-container label {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.postType {
+    width: 150px;
+
+}
+
+#return-btn {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+#container-logout-btn {
+    display: flex;
+    align-items: left;
+}
+
+#print-user-posts {
+    border: 2px solid black;
+    width: 600px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.dataContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.printedDataContainer {
+    border: 1px solid rgb(136, 135, 135);
+    width: 800px;
+    display: grid;
+    grid-template-columns: 150px 1fr 95px 200px;
+    gap: 10px;
+    justify-content: center;
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.printedDataContainer div{
+    text-align: center;
+    padding: 2px;
+    border:0px
+    
+}
+#todo-form{
+    display: none;    
+    text-align: center;
+    
+}
+#addTodo{
+padding-top: 5px;
+padding-bottom: 5px;   
+}
+#post_btn_container{
+ padding: 30px;
+}
+#btn_post {
+    background-color: rgb(199, 24, 24);
+    height: 30px;
+    width: 70px;
+    border-radius: 25px;
+}
+.button_container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+}
+
+.button_container input {
+    width: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+}
+
+.postContent {
+    word-break: break-all;
+}
+
+
+.printedDataContainer input {
+    opacity: 0.9;
+    font-size: small;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fieldTypeError {
+    visibility: hidden;
+    font-size: 12px;
+    color: red;
+}
+
+#fieldContentError {
+    visibility: hidden;
+    font-size: 12px;
+    color: red;
+}
+
+#fieldDateError {
+    visibility: hidden;
+    font-size: 12px;
+    color: red;
+}

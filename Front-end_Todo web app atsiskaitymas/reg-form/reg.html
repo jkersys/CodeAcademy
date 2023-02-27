@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg</title>
+    <link rel="stylesheet" href="app-reg.css" />
+</head>
+<body>
+        <form id="reg-form">
+            <div id="redTable"><p>User already exist</p></div>
+            <div class="input-container">
+            <h2>Sign up</h2>
+            <input type="text" name="firstname" id="inputFirstName" placeholder="Enter Firstname">
+            <div id="firstname-err">This field is required</div>
+            
+            <input type="text" name="lastname" id="inputLastName" placeholder="Enter lastname">
+            <div id="lastname-err">This field is required</div>
+         
+            <input type="text" name="email" id="inputEmail" placeholder="Enter email">
+            <div id="email-err">Please enter valid email</div>
+        </div>
+        <div class="buttons_container">
+            <input type="button" id="signup_btn" value="Sign up">
+            <input type="button" id="btn_return" value="Return">
+        </div>
+    </form>
+    <script src="app-reg.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="app-login.css" />
+</head>
+<body>
+        <form id="login-form">
+            <div id="redTable"><p>Account does not exist</p></div>
+            <h3 id="failed"></h3>
+            <div class="input-container">
+            <h2>Log in</h2>
+            <input type="text" name="name" id="input-firstname" placeholder="Enter Firstname">
+            <div id="fieldNameError">This field is required</div>
+           
+            <input type="text" name="surname" id="input-lastname" placeholder="Enter Lastname">
+            <div id="fieldLastnameError">This field is required</div>
+        </div>
+        <div class="buttons_container">
+            <input type="button" id="login-submit" value="Login"> 
+            <button type="button" id="btn_return">Return</button>
+        </div>
+        </form>
+    <script src="app-login.js"></script>
+</body>
+</html>

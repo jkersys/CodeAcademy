@@ -1,0 +1,90 @@
+body {
+height: 800px;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin:0%
+}
+
+#login-form {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 450px;
+    height: 450px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.input-container {    
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;   
+}
+
+
+
+.input-container input {    
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;   
+    border-radius: 25px;
+    padding: 10px;
+    opacity: 0.9;
+    font-size: larger;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons_container {
+    height: 200px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    text-align: center;
+    
+}
+#btn_return{
+    margin: 10px;
+    height: 35px;
+    width: 100px;
+    border-radius: 25px;
+}
+#login-submit{
+    height: 35px;
+    width: 100px;
+    justify-content: center;   
+    border-radius: 25px; 
+    margin: 10px;
+}
+#redTable {
+    visibility: hidden;
+    background-color: rgb(167, 20, 20);
+    width: 300px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+#fieldNameError{
+    visibility: hidden;
+    font-size: 12px;
+    color: red;
+}
+
+#fieldLastnameError {
+    visibility: hidden;
+    font-size: 12px;
+    color: red;
+}

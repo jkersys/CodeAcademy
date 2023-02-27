@@ -1,0 +1,44 @@
+body {
+  height: 800px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 400px;
+    height: 300px;    
+    padding: 15px;
+ 
+}
+
+#btn_container{
+    align-items: center;
+    text-align: center;
+    display: block;
+    height: 90px;
+    width: 120;
+    padding: 20px;
+    
+    
+        
+}
+.main_page_btn{
+    margin: 15px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: rgb(10, 48, 104);
+    color: white;
+    
+
+}
+#msg-container{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;   
+}
